@@ -1,5 +1,6 @@
 This is a website I created for a client which operates live on his server
 I Developed it using HTML, CSS, Bootstrap and some javascript
+You can access it through the link scelyinsuranceagency.com
 It contains four pages the Home, Covers, About and Contact page
 Below are their views
 HOME PAGE
