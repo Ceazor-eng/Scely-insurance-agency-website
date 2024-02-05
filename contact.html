@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scely insurance agency</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7e53fc4f86.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <div class="header">
+            <div class="container">     
+                 <div class="navbar">
+                    <nav> <div class="logo"><b>Scely</b><span>ia</span></div>
+                        <ul><b>
+                            <li><h1><a href="index.html"><b>Home</b></a></h1></li>
+                            <li><h1><a href="product.html"><b>Covers</b></a></h1></li>
+                            <li><h1><a href="about.html"><b>About</b></a></h1></li>
+                            <li><h1><a href="contact.html"><b>Contact us</b></a></h1></li></b>
+                            <!-- <img src="cart.jpg" width="38px" height="38px"> -->
+                        </ul></nav>
+                
+            </div>
+        </div>
+            </div>
+    <body>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p2>We encourage you to get in touch with us using the contact information provided below.
+                     We look forward to hearing from you and assisting you with all your insurance needs.<br>
+                    Thank you for considering Scely insurance agency. We are honored to be your trusted insurance partner.</p2>
+            </div>
+            <div class="container5">
+                <div class="contactinfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                        <br>
+                        <div class="text">
+                            
+                            <h3>Address</h3>
+                            <p4>55678 <br>Nairobi, Kenya<br></p4>                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-sharp fa-solid fa-phone"></i></div>
+                        <br>
+                        <div class="text">
+                            
+                            <h3>Phone</h3>
+                            <p4>0702112100, 0725532957</p4>                     </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-sharp fa-solid fa-envelope-circle-check "></i>  </div>  <br>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p4>scelyia@gmail.com</p4>   
+                            <p4>eoduor@scelyinsuranceagency.com - <b>(for immediate response)</b> </p4>                            </div>
+                    </div>
+                </div>
+                <!-- <div class="contactform">
+                    <form onsubmit="sendEmail(); reset(); return false;">
+                        <h2> Send Message</h2>
+                        <div class="inputbox">
+                            <input type="text" id="name" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" id="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea id="message"  required="required"></textarea>
+                            <span>Type your Message.....</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div> -->
+                
+    <script>
+        function sendEmail() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            // Send the data to your server-side script using AJAX or fetch
+            // Example using fetch (replace with your server endpoint)
+            fetch('http://d09e-197-248-191-101.ngrok-free.app/scely/message.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name, email, message }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("Email sent successfully!"); // You can display a success message
+                    document.getElementById("name").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("message").value = "";
+                } else {
+                    alert("Email sending failed. Please try again."); // Handle error cases
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                alert("An error occurred while sending the email.");
+            });
+        }
+    </script>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="container1">
+               <div class="row"> 
+                   <div class="footer-col"> 
+           <h3>Company</h3>
+           <ul>
+               <li><a href="about.html">About us</a></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="product.html">Covers</a></li>
+               <li><a href="contact.html">Contact us</a></li>
+           </ul>
+           </div>
+           <div class="footer-col"> 
+               <h3>Get help</h3>
+               <ul>
+                   <li><a href="#F.A.Q">FAQ</a></li>
+               </ul>
+               </div>
+               <div class="footer-col"> 
+                   <h3>Follow us</h3>
+                   <div class="social-links">
+                    <ul>
+                        <li><a href="https://www.instagram.com/scely_ia?igsh=YWNlam05eXprZ3lu&utm_source=qr"><i class="fa-brands fa-instagram"></i> </a><p4>Instagram</p4></li>
+                        <li><a href="https://web.facebook.com/scelyinsuranceagency"><i class="fa-brands fa-facebook"></i> </a><p4>Facebook</p4></li>
+                        <li><a href="https://twitter.com/AgencyScely"><i class="fa-brands fa-twitter"></i>  </a><p4>Twitter</p4></li>
+                        <li><a href="https://www.linkedin.com/company/scely-insurance-agency/"><i class="fa-brands fa-linkedin"></i> </a><p4>Linked In</p4></li>
+                    </ul>
+            </div>
+                   </div>
+           
+               </div>
+            </div>
+            </div>
+    </body>
+</html>
