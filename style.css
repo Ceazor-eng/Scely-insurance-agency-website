@@ -208,8 +208,6 @@ p2 {
   background: #2e4241;
 }
 
-.categories {}
-
 .col-3 {
   flex-basis: 30%;
   min-width: 250px;
@@ -230,6 +228,7 @@ p2 {
 .col-4 {
   flex-basis: 25%;
   padding: 10px
+}
 
 .logo{
   color: rgb(4, 8, 11);
@@ -382,23 +381,9 @@ p2{
     transition: 0.5s;
 
 }
-/* .header{
-    background: radial-gradient(#e1c62e, #bbbebc);
-     position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.header .row{ */
-    margin-top: 0px;
-}
 .btn:hover{
     background: #2e4241;
 
-}
-.categories{
-  
 }
 .col-3{
     flex-basis: 30%;
@@ -487,7 +472,7 @@ h2::after{
   color: #060404;
   text-decoration: none;
   font-weight: 300;
-  color: #bbbbb;
+  color:#bbbbb;
   display: block;
   transition: all 0.3s ease;
 }
@@ -637,7 +622,7 @@ h2::after{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 35px;
-    color: ##383a45;
+    color: #383a45;
     transition: transform 0.5s ease;
   }
   .icon2 {
@@ -1405,11 +1390,645 @@ width: 750px;
   margin-left: 25px;
 }
 /* General styles for all devices */
+@media only screen and (max-width: 400px) {
 
-/* Styles for screens with a maximum width of 600 pixels (small screens) */
-@media only screen and (max-width: 600px) {
-  /* Adjust styles for small screens here */
+  body > div:nth-child(3) > center > div > div{
+    align-items: center;
+   
+  }
+
+
+
+  body > div:nth-child(3) > center > div > div > div.card4 {
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+ }
+
+  body > div:nth-child(3) > center > div > div > div.card4 i {
+    font-size: 23px;
+  }
+  body > div:nth-child(3) > center > div > div > div.card5 {
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+
+  }
+  body > div:nth-child(3) > center > div > div > div.card5 i {
+    font-size: 23px;
+
+  }
+  body > div:nth-child(3) > center > div > div > div.card6 {
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+
+    
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card6 i {
+ 
+    font-size: 23px;
+   
+
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card2 {
+
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card2 i {
+
+    font-size: 23px;
+
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card7 {
+
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card7 i {
+
+    font-size: 23px;
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card8 {
+
+    
+    width: 10px;
+    font-size: 5px;
+    height: 10px;
+
+
+  }
+
+  body > div:nth-child(3) > center > div > div > div.card8 i {
+
+    font-size: 23px;
+  }
+
+
+  #slide {
+    font-size: 23px;
+    margin-right: -30px;
+    
+  }
+  #slide > div:nth-child(1) > div p {
+    font-size: 9px;
+    margin-left: 98px;
+    margin-right: -30px;
+
+  }
+  #slide > div:nth-child(2) > div > p{
+    font-size: 9px;
+    margin-left: 98px;
+    margin-right: -30px;
+
+
+  }
+  #slide > div:nth-child(3) > div > p{
+    font-size: 9px;
+    margin-left: 98px;
+    margin-right: -30px;
+
+  }
+  #slide > div:nth-child(4) > div > p{
+    font-size: 9px;
+    margin-left: 98px;
+    margin-right: -30px;
+
+
+  }
+
+
+  
+  #slide > div:nth-child(1)> div h3 {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+
+  #slide > div:nth-child(2)> div h3 {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+
+  #slide > div:nth-child(3)> div h3 {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+
+  #slide > div:nth-child(4)> div h3 {
+    font-size: 9px;
+    margin-left: 98px;
+  }
+  #slide > div:nth-child(1) > div {
+
+    width: 100%;
+ 
+
+  }body > div.header > div > div > nav > ul > b > li:nth-child(1) > h1 {
+    margin-left: -40px;
+  }
+  body > div.header > div > div > nav > ul > b > li:nth-child(2) > h1 {
+    margin-left: -2px;
+  }
+  body > div.header > div > div > nav > ul > b > li:nth-child(3) > h1 {
+    margin-left: -2px;
+  }
+  body > div.header > div > div > nav > ul > b > li:nth-child(4) > h1 {
+    margin-left: -2px;
+  }
+
+  body > div.header > div > div > nav > ul > b > li:nth-child(1) > h1 > a > b {
+
+    font-size: 12px;
+  margin:5px;
+  
 }
+
+body > div.header > div > div > nav > ul > b > li:nth-child(2) > h1 > a {
+
+  font-size: 12px;
+margin: 5px;
+
+}
+
+body > div.header > div > div > nav > ul > b > li:nth-child(3) > h1 > a {
+
+  font-size: 12px;
+  margin: 5px;
+
+}
+body > div.header > div > div > nav > ul > b > li:nth-child(4) > h1 > a {
+
+  font-size: 12px;
+  margin: 0px;
+
+}
+body > div.header > div > div > nav > ul > b > li:nth-child(5) > h1 > a {
+
+  font-size: 12px;
+  margin: 0px;
+
+}
+
+body > div.header > div > div > nav > ul > li > h1 > a {
+
+  font-size: 12px;
+  margin: 0px;
+
+}
+body > div.header > div > div > nav > div{
+  font-size: 23px;
+  padding: 0;
+  margin-left: -20px;
+  width: 100%;
+  
+}
+body > div:nth-child(2){
+  margin-left: -45px;
+}
+
+body > div:nth-child(2) > div > div.col-2 > a{
+  margin-bottom: 45px;
+}
+body > div.header > div > div > nav > ul > b > li:nth-child(1) {
+  margin-right: 5px;
+}
+
+body > div.header > div > div > nav > ul > b > li:nth-child(2) {
+  margin-right: 5px;
+}
+body > div.header > div > div > nav > ul > b > li:nth-child(3) {
+  margin-right: 5px;
+}
+body > div.header > div > div > nav > ul > b > li:nth-child(4) {
+  margin-right: 5px;
+}
+/* body > div.header > div > div {
+  display: inline-flex;
+  padding: 5px;
+  
+}body > div.header > div > div > nav {
+  display: inline-flex;
+  padding: 5px; */
+  body > div.header > div > div > nav > ul > b{ display: inline-flex;
+    margin: 2px;
+    padding: 5px; }
+
+    body > div:nth-child(2) > div > div.col-md-6 > div > div{
+      margin-right: 50px;
+    }
+
+    
+
+      body > div:nth-child(2) > div > div.col-md-6 > div > div > img:nth-child(1){
+        width: 82%;
+        height: auto;
+        
+      
+      }
+      body > div:nth-child(2) > div > div.col-md-6 > div > div > img:nth-child(2){
+        width: 82%;
+        height: auto;
+      }
+      body > div:nth-child(2) > div > div.col-md-6 > div > div > img:nth-child(3){
+        width: 82%;
+        height: auto;
+      }
+      body > div:nth-child(2) > div > div.col-md-6 > div > div > img:nth-child(4){
+        width: 82%;
+        height: auto;
+      }
+
+      body > div:nth-child(2) > div > div.col-md-6 > div{
+        width:85%;
+        height: auto;
+        margin-right: 40px;
+
+      }
+      body > div:nth-child(4) > div{
+        width: 100%;
+        margin-left: -20px;
+      }
+      body > div:nth-child(4){
+        margin-right: -20px;
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(1){
+        margin-left: -35px;
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(1) > h3{
+        font-size: 10px;
+      }
+     
+      body > div.footer.mt-4 > div > div > div:nth-child(1) > ul > li:nth-child(1) > a {
+        font-size: 10px;
+
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(1) > ul > li:nth-child(2) > a {
+        font-size: 10px;
+
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(1) > ul > li:nth-child(3) > a {
+        font-size: 10px;
+
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(1) > ul > li:nth-child(4) > a {
+        font-size: 10px;
+
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(2) > h3{
+        font-size: 10px;
+
+
+      }
+      body > div:nth-child(3){
+        margin-left: -20px;
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(2) > ul > li > a{
+        font-size: 10px;
+
+      }
+      body > div.footer.mt-4 > div > div > div:nth-child(2) {
+        margin-left: 18px;       }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) {
+          margin-top: -15px ;
+          margin-right: -45px;
+        }
+      
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > h3{
+          font-size: 10px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul{
+          margin-top: -10px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(1){
+          font-size: 10px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(2){
+          font-size: 10px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(3){
+          font-size: 10px;
+          margin-bottom: 0.1%;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(4){
+          font-size: 10px;
+          margin-bottom: 0.1%;
+
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(2) > a{
+          font-size: 10px;
+          margin: 0px;
+
+
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(2) > a > i{
+          margin-top: -60px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(1) > a{
+          font-size: 10px;
+          margin: 0px;
+
+        }
+      
+      
+       
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(3) > a{
+          font-size: 10px;
+          margin: 0px;
+
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(4) > a{
+          font-size: 10px;
+          margin: 0px;
+
+
+        }
+
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(1) > a > i{
+          height: 75px;
+          width: 15px;
+          margin-bottom: 2px;
+
+
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3) > div > ul > li:nth-child(1) > li{
+          font-size: 10px;
+        }
+        body > div.footer.mt-4 > div > div > div:nth-child(3){
+          margin-right: -5px;
+        }
+
+        body > div:nth-child(3) > center > div > div > div.card5{
+          margin-left: -10px;
+        }
+        body > div:nth-child(3) > center > div > div > div.card6{
+          margin-top: -1px;
+        }
+        body > div:nth-child(3) > center > div > div > div.card2{
+          margin-left: -10px;
+        }
+        body > div:nth-child(3) > center > div > div > div.card7{
+          margin-top: -8px;
+        }
+        body > div.header > div > div > nav > ul > b > li:nth-child(1) > h1{
+          margin-left: -12px;
+        
+        }
+        .card-text{
+          font-size: 10px;
+          line-height: 2;
+          width: 175px;
+          margin-left: -590px;
+        }
+        .card-title {line-height: 2;}
+
+        body > div.box-container > div:nth-child(1) > h3{
+          font-size: 10px;
+          margin-left: 13px;
+          
+        }
+        body > div.box-container > div:nth-child(1) > p{
+          font-size: 10px;
+          margin-left: 13px;
+        }
+        body > div.box-container > div:nth-child(1) > a{
+          font-size: 1px;
+          margin-right: 93px;
+        }
+        body > div.box-container > div:nth-child(2) > h3{
+          font-size: 10px;
+          margin-left: 13px;
+        }
+        body > div.box-container > div:nth-child(2) > p{
+          font-size: 10px;
+          margin-left: 13px;
+        }
+        body > div.box-container > div:nth-child(2) > a{
+          font-size: 1px;
+          margin-right: 93px;
+        }
+        body > div.box-container1 > div:nth-child(1) > h3{
+          font-size: 10px;
+          margin-left: 13px;
+
+
+        }
+        body > div.box-container1 > div:nth-child(1) > p{
+          font-size: 10px;
+          margin-left: 13px;
+        }
+        body > div.box-container1 > div:nth-child(1) > a{
+          font-size: 1px;
+          margin-right: 93px;
+    }
+    body > div.box-container2 > div:nth-child(1) > h3{
+      font-size: 10px;
+      margin-left: 13px;
+
+
+    }
+    body > div.box-container2 > div:nth-child(1) > p{
+      font-size: 10px;
+      margin-left: 13px;
+    }
+    body > div.box-container2 > div:nth-child(1) > a{
+      font-size: 1px;
+      margin-right: 93px;
+}
+body > div.box-container2 > div:nth-child(2) > h3{
+  font-size: 10px;
+  margin-left: 13px;
+
+
+}
+body > div.box-container2 > div:nth-child(2) > p{
+  font-size: 10px;
+  margin-left: 13px;
+}
+body > div.box-container2 > div:nth-child(2) > a{
+  font-size: 1px;
+  margin-right: 93px;
+}
+body > div.box-container1 > div:nth-child(2) > h3{
+  font-size: 10px;
+  margin-left: 13px;
+
+
+}
+body > div.box-container1 > div:nth-child(2) > p{
+  font-size: 10px;
+  margin-left: 13px;
+
+
+}
+body > div.box-container1 > div:nth-child(2) > a{
+  font-size: 10px;
+  margin-left: 13px;
+
+
+}
+body > section > div.content > p2{
+
+  font-size: 13px;
+}
+
+body > section > div.container5 > div > div:nth-child(1) > div.icon{
+  font-size: 13px;
+}
+body > section > div.container5 > div > div:nth-child(1) > div.text > h3{
+  font-size: 13px;
+}
+body > section > div.container5 > div > div:nth-child(1) > div.text > p4{
+  font-size: 13px;
+}
+body > section > div.container5 > div > div:nth-child(2) > div.text > h3{
+  font-size: 13px;
+}
+body > section > div.container5 > div > div:nth-child(2) > div.text > p4 {
+  font-size: 13px;
+
+}
+body > section > div.container5 > div > div:nth-child(3) > div.text > h3 {
+  font-size: 13px;
+
+}
+body > section > div.container5 > div > div:nth-child(3) > div.text > p4 {
+  font-size: 13px;
+
+}
+body > div.footer > div > div > div:nth-child(1) > h3{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(1) > ul > li:nth-child(1) > a {
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(1) > ul > li:nth-child(2) > a {
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(1) > ul > li:nth-child(3) > a {
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(1) > ul > li:nth-child(4) > a {
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(1) > ul{
+  margin-left: -8px;
+}
+
+body > div.footer > div > div > div:nth-child(2) > h3{
+  font-size: 13px;
+  margin-left: -60px;
+}
+body > div.footer > div > div > div:nth-child(2) > ul > li > a{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(2) > ul{
+  margin-left: -60px;
+}
+
+body > div.footer > div > div > div:nth-child(3) > h3{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(1){
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(2){
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(3){
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(4){
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(1) > a{
+  font-size: 13px;
+}
+
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(2) > a{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(3) > a{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(4) > a{
+  font-size: 13px;
+}
+body > div.footer > div > div > div:nth-child(3) > div{
+  margin-right: -45px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(1) > a{
+  margin: 2px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(2) > a{
+  margin: 2px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(3) > a{
+  margin: 2px;
+}
+body > div.footer > div > div > div:nth-child(3) > div > ul > li:nth-child(4) > a{
+  margin: 2px;
+}
+body > div.footer > div > div > div:nth-child(3) > h3{
+  margin-right: -290px;
+}
+
+body > div.aboutus > div:nth-child(1) > div:nth-child(1) > p4{
+  font-size: 10px;
+}
+body > div.aboutus > div:nth-child(5) > div.card20 > h2{
+  font-size: 15px;
+}
+body > div.aboutus > div:nth-child(5) > div.card20 > p4{
+  font-size: 12px;
+}
+
+body > div.aboutus > div:nth-child(5) > div.card21 > h2{
+  font-size: 15px;
+}
+body > div.aboutus > div:nth-child(5) > div.card21 > p4{
+  font-size: 12px;
+}
+body > div.aboutus > div:nth-child(5) > div.card22 > h2{
+  font-size: 15px;
+}
+body > div.aboutus > div:nth-child(5) > div.card22 > p4{
+  font-size: 12px;
+}
+body > div.service1 > div > p6{
+  font-size: 15px;
+}
+body > div.service2 > div > p6{
+  font-size: 15px;
+}
+body > center > div > h5 > b{
+  font-size: 15px;
+  line-height: 2;
+}
+.card5{
+  margin-bottom: 20px;
+}
+.card6{
+  margin-bottom: 20px;
+}
+.card2{
+  margin-bottom: 20px;
+}
+.card7{
+  margin-bottom: 20px;
+}
+}
+  
 
 /* Styles for screens with a minimum width of 601 pixels and a maximum of 900 pixels (medium screens) */
 @media only screen and (min-width: 601px) and (max-width: 900px) {
